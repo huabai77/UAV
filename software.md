@@ -21,3 +21,7 @@ https://github.com/JIC-CSB/kilombo
 https://www.dronecode.org/documentation/    
 https://dev.px4.io/en/simulation/gazebo.html    
 http://gazebosim.org/    
+
+open UAV:    
+https://openuav.us/wiki/index.php/OpenUAV_Project    
+https://github.com/Open-UAV    
