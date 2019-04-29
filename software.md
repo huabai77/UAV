@@ -6,3 +6,5 @@ https://github.com/Vision4UAV/Aerostack
 
 AFIT swarm simulation???    
 https://github.com/derekworth/afit-swarm-simulation    
+
+https://github.com/frgfm/drone-swarm    
