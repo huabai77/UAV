@@ -6,15 +6,16 @@ https://github.com/Vision4UAV/Aerostack
 
 AFIT swarm simulation???    
 https://github.com/derekworth/afit-swarm-simulation    
-https://simdis.nrl.navy.mil/ (报错，访问不了)
-SIMDIS SDK (SIMDIS SDK和SIMDIS什么关系？如果SIMDIS不能访问，SIMDIS SDK是否可以使用？):     
+https://simdis.nrl.navy.mil/ (这个应该用不了，不考虑了)
+SIMDIS SDK (SIMDIS SDK可能是和SIMDIS紧密相关的，如果是这样可能也不考虑):     
 https://emminizer-testing.readthedocs.io/en/latest/    
 https://github.com/USNavalResearchLaboratory/simdissdk    
 https://en.wikipedia.org/wiki/SIMDIS (有一些其他相关项目链接，例如http://vterrain.org/Def/)    
 用到了openeaagle:       
-http://www.openeaagles.org/ (这个好像也访问不了)     
+http://www.openeaagles.org/ (www.mixr-platform.org 看起来是一个网站)     
 https://github.com/doughodson    
 https://github.com/doughodson/OpenEaagles     
+DIS是IEEE标准接口...有open dis?
 
 https://github.com/frgfm/drone-swarm    
 
