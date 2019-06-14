@@ -12,11 +12,19 @@ help
 install_all
 安装完成会出现mixr-3rdparty目录
 
-build mixr:
+编译mixr:
 进入mixr/src目录，运行make
 
-build mixr-examples:
+编译mixr-examples:
 修改mixr-examples/makedefs，把osgPlugins-3.4.1改为osgPlugins-3.6.3
 在mixr-examples目录下运行：
 source setenv.sh
 make
+
+生成mixr代码文档：
+安装文档生成工具(sudo apt install): doxygen doxygen-gui graphviz graphviz-doc
+修改doxygen配置文件：
+在mixr/doc目录下修改文件doxygenGraphics.cfg，设置INPUT参数值为mixr/src目录的路径，保存
+在mixr/doc目录下运行命令：
+doxygen doxygenGraphics.cfg
+在doc目录下会生成一个html目录，打开index.html查看生成的文档
