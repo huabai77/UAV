@@ -3,7 +3,7 @@
 在mixr目录下执行命令设置环境变量：
 source setenv.sh
 
-安装第三方依赖（参考mixr-3rdpartysrc\README.md）
+安装第三方依赖（参考mixr-3rdpartysrc/README.md）
 执行sudo apt install安装依赖包：libfreetype6, libfreetype6-dev, freeglut3, freeglut3-dev, libftgl2, libftgl-dev, libgdal-dev
 安装编译工具(sudo apt install): autogen, automake, libtool, libtool-bin, cmake
 安装mixr-3rdpartysrc下的第三方包：
@@ -14,3 +14,9 @@ install_all
 
 build mixr:
 进入mixr/src目录，运行make
+
+build mixr-examples:
+修改mixr-examples/makedefs，把osgPlugins-3.4.1改为osgPlugins-3.6.3
+在mixr-examples目录下运行：
+source setenv.sh
+make
