@@ -47,8 +47,14 @@ build/qt/*/*Makefile*
 build/qt/*/*/*Makefile*
 *.pro.user
 
+# preprocessed input (scenario) files
+*.edl
+
 # compiled object files
 *.[oa]
+
+# linux executable
+uav
 
 # backup files
 *.bak

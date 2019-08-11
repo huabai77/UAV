@@ -1,15 +1,11 @@
 
-# -----------------------------------------------------------------------------
-# MIXR Examples 'make' configuration file
-# -----------------------------------------------------------------------------
 
 include ${MIXR_ROOT}/src/makedefs
 
 # ---
-# Add location of MIXR libs and example libraries
+# Add location of MIXR libs
 # ---
 LDFLAGS += -L$(MIXR_ROOT)/lib
-LDFLAGS += -L$(MIXR_EXAMPLES_LIB_PATH)
 
 # ---
 # Add location of 3rd party libs
